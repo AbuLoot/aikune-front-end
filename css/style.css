@@ -1,0 +1,119 @@
+html, body {
+  /*background-color: #01313e;*/
+  /*background-color: #fff;*/
+  height: 100%;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  background-color: #fff;
+  background-color: #363186;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  box-shadow: 0 0px 5px #999;
+}
+.main {
+  /*margin-top: 20px;*/
+}
+.logo {
+  position: absolute;
+  top: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #fff;
+  /*-webkit-box-shadow: 0px 0px 2px 0px rgba(66,66,66,1);*/
+  /*-moz-box-shadow: 0px 0px 2px 0px rgba(66,66,66,1);*/
+  /*box-shadow: 0px 0px 2px 0px rgba(66,66,66,1);*/
+
+/*  -webkit-box-shadow: 0px 0px 3px #999;
+  -moz-box-shadow: 0px 0px 3px #999;
+  box-shadow: 0px 0px 3px #999;*/
+}
+.logo > a > img {
+  max-width: 200px;
+  margin: 20px 15px;
+}
+.menu {
+  text-align: right;
+}
+ul.phones > li {
+  color: #fff;
+  margin-bottom: 5px;
+}
+ul.list-menu > li > a {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 20px;
+  /*font-weight: bold;*/
+  text-transform: uppercase;
+}
+
+/* Header Slider */
+.header-slider {
+  height: 650px;
+  /*background-color: #0E0026;*/
+  background-color: #030921;
+  background-image: url(../img/5.jpg);
+  /*background-image: url(../img/header-bg-spine.jpg);*/
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  background-position: 140% 20%;
+}
+.marketing {
+  width: 70%;
+  margin-left: 15px;
+  margin-top: 160px;
+  color: #fff;
+  text-shadow: 1px 1px #454545;
+  text-transform: uppercase;
+}
+.marketing > .first-header {
+  font-size: 50px;
+}
+.marketing > .second-header {
+  margin-top: 40px;
+  font-size: 30px;
+}
+.marketing > .second-header > span {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+/* Video */
+.video {
+  border-top: 3px solid #E2087D;
+  background-color: #030921;
+/*  -webkit-box-shadow: 0px 0px 3px #E2087D;
+  -moz-box-shadow: 0px 0px 3px #E2087D;
+  box-shadow: 0px 0px 3px #E2087D;*/
+  padding: 100px 0;
+}
+.video-aikune {
+  text-align: center;
+}
+
+/* Info */
+.info-services {
+  height: 100%;
+  min-height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.info-services > div > .row {
+  position: relative;
+  margin-bottom: 50px;
+}
+.info-services > div > .row > .col-md-8 {
+  display: table;
+  position: relative;
+  height: 200px;
+}
+.info-services > .col-md-12 {
+  display: table;
+  position: relative;
+}
+.info-service {
+  height: 200px;
+  display: table-cell;
+  vertical-align: middle;
+}
