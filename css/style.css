@@ -94,26 +94,98 @@ ul.list-menu > li > a {
 
 /* Info */
 .info-services {
-  height: 100%;
-  min-height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 .info-services > div > .row {
-  position: relative;
   margin-bottom: 50px;
 }
 .info-services > div > .row > .col-md-8 {
   display: table;
-  position: relative;
-  height: 200px;
-}
-.info-services > .col-md-12 {
-  display: table;
-  position: relative;
+  height: 194px;
 }
 .info-service {
-  height: 200px;
   display: table-cell;
   vertical-align: middle;
+}
+.info-service > .h3 {
+  color: #363186;
+}
+.info-service > p {
+  font-size: 18px;
+}
+
+/* Advantage */
+.advantage {
+  padding: 50px 0;
+  background-color: #ECEFEF;
+}
+.advantage > div > .h3 {
+  color: #363186;
+  margin-bottom: 50px;
+}
+.advantage-item {
+  font-size: 16px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* You need it */
+.you-need-it {
+  padding: 50px 0;
+  background-color: #363186;
+}
+.you-need-it > div > .h3 {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.you-item {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Gymnastics */
+.gymnastics {
+  color: #fff;
+  font-size: 16px;
+  text-align: justify;
+  /*text-align: center;*/
+  margin-top: 50px;
+}
+.gymnastics p {
+  /*padding: 25px;*/
+  /*border: 1px solid #2CCAF7;*/
+}
+
+/* Patent */
+.patent {
+  padding: 50px 0;
+}
+.patent > div > .h3 {
+  margin-bottom: 50px;
+}
+.col-md-offset-12-5 {
+  margin-left: 12.5%;
+}
+
+
+/* Technique */
+.technique {
+  padding: 50px 0;
+  background-color: #363186;
+}
+.technique > div > .h3 {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.technique-item {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
 }
