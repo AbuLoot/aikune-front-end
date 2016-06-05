@@ -3,10 +3,13 @@ html, body {
   /*background-color: #fff;*/
   height: 100%;
 }
+.col-md-offset-2-5 {
+  margin-left: 12.5%;
+}
 
 /* Navigation Menu */
 .nav-menu {
-  background-color: #fff;
+  /*background-color: #fff;*/
   background-color: #363186;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -57,7 +60,7 @@ ul.list-menu > li > a {
   /*background-image: url(../img/header-bg-spine.jpg);*/
   background-repeat: no-repeat;
   /*background-size: cover;*/
-  background-position: 140% 20%;
+  background-position: 600px 20%;
 }
 .marketing {
   width: 70%;
@@ -76,7 +79,6 @@ ul.list-menu > li > a {
 }
 .marketing > .second-header > span {
   font-size: 45px;
-  font-weight: bold;
 }
 
 /* Video */
@@ -97,10 +99,10 @@ ul.list-menu > li > a {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.info-services > div > .row {
+.info-services > .row {
   margin-bottom: 50px;
 }
-.info-services > div > .row > .col-md-8 {
+.info-services > .row > .col-md-8 {
   display: table;
   height: 194px;
 }
@@ -122,10 +124,13 @@ ul.list-menu > li > a {
 }
 .advantage > div > .h3 {
   color: #363186;
+  font-weight: bold;
+  text-align: center;
   margin-bottom: 50px;
 }
 .advantage-item {
   font-size: 16px;
+  font-weight: bold;
   margin-top: 25px;
   text-transform: uppercase;
   text-align: center;
@@ -135,9 +140,11 @@ ul.list-menu > li > a {
 .you-need-it {
   padding: 50px 0;
   background-color: #363186;
+  /*background-color: #030921;*/
 }
 .you-need-it > div > .h3 {
   color: #fff;
+  text-align: center;
   margin-bottom: 50px;
 }
 .you-item {
@@ -153,12 +160,7 @@ ul.list-menu > li > a {
   color: #fff;
   font-size: 16px;
   text-align: justify;
-  /*text-align: center;*/
   margin-top: 50px;
-}
-.gymnastics p {
-  /*padding: 25px;*/
-  /*border: 1px solid #2CCAF7;*/
 }
 
 /* Patent */
@@ -166,21 +168,26 @@ ul.list-menu > li > a {
   padding: 50px 0;
 }
 .patent > div > .h3 {
+  color: #363186;
+  text-align: center;
   margin-bottom: 50px;
-}
-.col-md-offset-12-5 {
-  margin-left: 12.5%;
 }
 
 
 /* Technique */
 .technique {
   padding: 50px 0;
-  background-color: #363186;
+  height: 750px;
+  /*background-color: #363186;*/
+  background-color: #030921;
+  background-image: url(../img/spine1b.jpg);
+  background-repeat: no-repeat;
+  background-position: 300px 30px;
 }
 .technique > div > .h3 {
   color: #fff;
   margin-bottom: 50px;
+  text-align: center;
 }
 .technique-item {
   color: #fff;
@@ -188,4 +195,45 @@ ul.list-menu > li > a {
   margin-top: 25px;
   text-transform: uppercase;
   text-align: center;
+}
+.help-list {
+  width: 95%;
+  margin-top: 50px;
+}
+.help-list > li {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 50px;
+  list-style-type: circle;
+}
+
+/* Symptoms */
+.symptoms-area {
+  display: table;
+  height: 400px;
+}
+.symptoms-description {
+  padding-left: auto;
+  padding-right: auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+.symptoms .h3 {
+  text-transform: uppercase;
+}
+.right-image1 {
+  width: 100%;
+  height: 400px;
+  background-size: 100% auto !important;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url(../img/Spine.jpg);
+}
+.left-image1 {
+  width: 100%;
+  height: 400px;
+  background-size: 100% auto !important;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url(../img/6.jpg);
 }
