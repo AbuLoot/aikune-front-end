@@ -101,6 +101,8 @@ ul.list-menu > li > a {
 }
 .info-services > .row {
   margin-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
 }
 .info-services > .row > .col-md-8 {
   display: table;
@@ -124,13 +126,13 @@ ul.list-menu > li > a {
 }
 .advantage > div > .h3 {
   color: #363186;
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-align: center;
   margin-bottom: 50px;
 }
 .advantage-item {
   font-size: 16px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   margin-top: 25px;
   text-transform: uppercase;
   text-align: center;
@@ -176,8 +178,8 @@ ul.list-menu > li > a {
 
 /* Technique */
 .technique {
-  padding: 50px 0;
-  height: 750px;
+  padding-top: 50px;
+  /*height: 100;*/
   /*background-color: #363186;*/
   background-color: #030921;
   background-image: url(../img/spine1b.jpg);
@@ -202,38 +204,60 @@ ul.list-menu > li > a {
 }
 .help-list > li {
   color: #fff;
-  font-size: 20px;
-  margin-bottom: 50px;
+  font-size: 22px;
+  margin-bottom: 40px;
   list-style-type: circle;
 }
 
 /* Symptoms */
+.symptoms {
+  margin-top: 129px;
+}
 .symptoms-area {
   display: table;
   height: 400px;
 }
 .symptoms-description {
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
   display: table-cell;
   vertical-align: middle;
 }
 .symptoms .h3 {
+  /*color: #030921;*/
+  /*color: #363186;*/
+  color: #fff;
+  /*text-align: center;*/
+  margin-bottom: 25px;
   text-transform: uppercase;
+}
+.symptoms ul {
+  padding-left: 0;
+}
+.symptoms ul > li {
+  /*color: #030921;*/
+  color: #fff;
+  font-size: 20px;
+  /*word-spacing: 4px;*/
+  /*letter-spacing: 1px;*/
+  margin-bottom: 10px;
+  list-style-type: none;
 }
 .right-image1 {
   width: 100%;
   height: 400px;
-  background-size: 100% auto !important;
-  background-position: center top;
+  background-color: #030921;
+  /*background-size: 100% auto !important;*/
+  /*background-position: center center;*/
   background-repeat: no-repeat;
-  background-image: url(../img/Spine.jpg);
+  background-image: url(../img/ready2-back-pain5.jpg);
 }
 .left-image1 {
   width: 100%;
   height: 400px;
-  background-size: 100% auto !important;
-  background-position: center top;
+  background-color: #030921;
+  /*background-size: 100% auto !important;*/
+  /*background-position: center center;*/
   background-repeat: no-repeat;
-  background-image: url(../img/6.jpg);
+  background-image: url(../img/ready-body-pain2.jpg);
 }
