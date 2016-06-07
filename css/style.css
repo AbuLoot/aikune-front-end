@@ -56,11 +56,11 @@ ul.list-menu > li > a {
   height: 650px;
   /*background-color: #0E0026;*/
   background-color: #030921;
-  background-image: url(../img/5.jpg);
-  /*background-image: url(../img/header-bg-spine.jpg);*/
+  /*background-image: url(../img/spine-human7.png);*/
+  background-image: url(../img/main-spine.jpg);
   background-repeat: no-repeat;
   /*background-size: cover;*/
-  background-position: 600px 20%;
+  background-position: 600px -50px;
 }
 .marketing {
   width: 70%;
@@ -206,7 +206,7 @@ ul.list-menu > li > a {
   color: #fff;
   font-size: 22px;
   margin-bottom: 40px;
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 /* Symptoms */
@@ -224,31 +224,25 @@ ul.list-menu > li > a {
   vertical-align: middle;
 }
 .symptoms .h3 {
-  /*color: #030921;*/
-  /*color: #363186;*/
   color: #fff;
-  /*text-align: center;*/
   margin-bottom: 25px;
   text-transform: uppercase;
 }
 .symptoms ul {
-  padding-left: 0;
+  /*padding-left: 0;*/
 }
 .symptoms ul > li {
-  /*color: #030921;*/
   color: #fff;
   font-size: 20px;
-  /*word-spacing: 4px;*/
-  /*letter-spacing: 1px;*/
   margin-bottom: 10px;
-  list-style-type: none;
+  list-style-type: circle;
 }
 .right-image1 {
   width: 100%;
   height: 400px;
   background-color: #030921;
-  /*background-size: 100% auto !important;*/
-  /*background-position: center center;*/
+  background-size: 100% auto !important;
+  background-position: center center;
   background-repeat: no-repeat;
   background-image: url(../img/ready2-back-pain5.jpg);
 }
@@ -256,8 +250,25 @@ ul.list-menu > li > a {
   width: 100%;
   height: 400px;
   background-color: #030921;
-  /*background-size: 100% auto !important;*/
-  /*background-position: center center;*/
+  background-size: 100% auto !important;
+  background-position: center center;
   background-repeat: no-repeat;
   background-image: url(../img/ready-body-pain2.jpg);
+}
+
+.how-it-works {
+  padding: 50px 0;
+}
+.how-it-works p {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Services */
+.services {
+  padding: 50px 0;
+}
+.services .h3 {
+  text-align: center;
+  padding-bottom: 50px;
 }
