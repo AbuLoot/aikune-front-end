@@ -268,7 +268,45 @@ ul.list-menu > li > a {
 .services {
   padding: 50px 0;
 }
-.services .h3 {
+.services > div > .h3 {
   text-align: center;
   padding-bottom: 50px;
+}
+.services ul > li > a {
+  text-transform: uppercase;
+}
+.nav-panel {
+  background-color: #030921;
+}
+.nav-pills > li > a {
+  padding: 25px 0;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  color: #fff;
+  background-color: #030921;
+}
+.nav-pills > li > a {
+  color: #2196F3;
+  background-color: #030921;
+}
+.nav-pills > li > a:focus,
+.nav-pills > li > a:hover {
+  color: #fff;
+  background-color: #030921;
+}
+.tab-content {
+  /*margin-top: 35px;*/
+  padding: 15px;
+}
+.tab-content > .tab-pane {
+  max-width: 580px;
+  margin: 0 auto;
+}
+.tab-content > div > .h3 {
+  text-align: center;
+}
+.tab-content > div > p {
+  font-size: 18px;
 }
