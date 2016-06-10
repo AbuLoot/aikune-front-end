@@ -1,8 +1,4 @@
-html, body {
-  /*background-color: #01313e;*/
-  /*background-color: #fff;*/
-  height: 100%;
-}
+
 .col-md-offset-2-5 {
   margin-left: 12.5%;
 }
@@ -15,22 +11,12 @@ html, body {
   padding-bottom: 20px;
   box-shadow: 0 0px 5px #999;
 }
-.main {
-  /*margin-top: 20px;*/
-}
 .logo {
   position: absolute;
   top: 0;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #fff;
-  /*-webkit-box-shadow: 0px 0px 2px 0px rgba(66,66,66,1);*/
-  /*-moz-box-shadow: 0px 0px 2px 0px rgba(66,66,66,1);*/
-  /*box-shadow: 0px 0px 2px 0px rgba(66,66,66,1);*/
-
-/*  -webkit-box-shadow: 0px 0px 3px #999;
-  -moz-box-shadow: 0px 0px 3px #999;
-  box-shadow: 0px 0px 3px #999;*/
 }
 .logo > a > img {
   max-width: 200px;
@@ -56,7 +42,6 @@ ul.list-menu > li > a {
   height: 650px;
   /*background-color: #0E0026;*/
   background-color: #030921;
-  /*background-image: url(../img/spine-human7.png);*/
   background-image: url(../img/main-spine.jpg);
   background-repeat: no-repeat;
   /*background-size: cover;*/
@@ -83,12 +68,8 @@ ul.list-menu > li > a {
 
 /* Video */
 .video {
-  /*border-top: 3px solid #E2087D;*/
-  background-color: #030921;
-/*  -webkit-box-shadow: 0px 0px 3px #E2087D;
-  -moz-box-shadow: 0px 0px 3px #E2087D;
-  box-shadow: 0px 0px 3px #E2087D;*/
   padding: 100px 0;
+  background-color: #030921;
 }
 .video-aikune {
   text-align: center;
