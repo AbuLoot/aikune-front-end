@@ -83,7 +83,7 @@ ul.list-menu > li > a {
 
 /* Video */
 .video {
-  border-top: 3px solid #E2087D;
+  /*border-top: 3px solid #E2087D;*/
   background-color: #030921;
 /*  -webkit-box-shadow: 0px 0px 3px #E2087D;
   -moz-box-shadow: 0px 0px 3px #E2087D;
@@ -126,13 +126,11 @@ ul.list-menu > li > a {
 }
 .advantage > div > .h3 {
   color: #363186;
-  /*font-weight: bold;*/
   text-align: center;
   margin-bottom: 50px;
 }
 .advantage-item {
   font-size: 16px;
-  /*font-weight: bold;*/
   margin-top: 25px;
   text-transform: uppercase;
   text-align: center;
@@ -242,7 +240,7 @@ ul.list-menu > li > a {
   height: 400px;
   background-color: #030921;
   background-size: 100% auto !important;
-  background-position: center center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-image: url(../img/ready2-back-pain5.jpg);
 }
@@ -266,47 +264,106 @@ ul.list-menu > li > a {
 
 /* Services */
 .services {
-  padding: 50px 0;
+  padding: 50px 0 0;
+  /*background-color: #030921;*/
+  background-color: #363186;
 }
-.services > div > .h3 {
+.services > .h3 {
+  color: #fff;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 .services ul > li > a {
   text-transform: uppercase;
 }
 .nav-panel {
-  background-color: #030921;
+  /*background-color: #030921;*/
+  background-color: #363186;
 }
 .nav-pills > li > a {
+  /*color: #2196F3;*/
+  /*color: #F36BCE;*/
+  color: #ECEFEF;
   padding: 25px 0;
+  /*background-color: #030921;*/
+  background-color: #363186;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
   color: #fff;
-  background-color: #030921;
-}
-.nav-pills > li > a {
-  color: #2196F3;
-  background-color: #030921;
+  /*background-color: #030921;*/
+  background-color: #363186;
 }
 .nav-pills > li > a:focus,
 .nav-pills > li > a:hover {
   color: #fff;
-  background-color: #030921;
+  /*background-color: #030921;*/
+  background-color: #363186;
+}
+.nav-pills > li.active > span,
+.nav-pills > li.active > span:focus,
+.nav-pills > li.active > span:hover {
+  position: absolute;
+  bottom: 0;
+  margin-left: 45%;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent; 
+}
+.nav-pills > li.active > span.arrow-bottom,
+.nav-pills > li.active > span.arrow-bottom:focus,
+.nav-pills > li.active > span.arrow-bottom:hover {
+  border-bottom-color: #fff;  
+  border-top: 0;
 }
 .tab-content {
-  /*margin-top: 35px;*/
-  padding: 15px;
+  padding-bottom: 50px;
 }
-.tab-content > .tab-pane {
-  max-width: 580px;
-  margin: 0 auto;
-}
-.tab-content > div > .h3 {
+.tab-content > div > .h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
   text-align: center;
+  text-transform: uppercase;
 }
-.tab-content > div > p {
-  font-size: 18px;
+.tab-content > div > div > p {
+  font-size: 16px;
+}
+
+/* Reviews */
+.reviews {
+  padding: 50px 0;
+  background-color: #ECEFEF;
+}
+.reviews > div > .h3 {
+  color: #363186;
+  margin-bottom: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.scroll-reviews {
+  /*background-color: #fff;*/
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+/* Contacts */
+.contacts {
+  color: #fff;
+  padding: 50px 0;
+  /*text-align: center;*/
+  background-color: #030921;
+  text-transform: uppercase;
+}
+.contacts > div > .h3 {
+  margin-bottom: 50px;
+}
+label { font-weight: 400; }
+
+/* Footer */
+.footer {
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #030921;
 }
