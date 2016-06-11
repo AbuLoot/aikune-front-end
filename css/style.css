@@ -65,6 +65,36 @@ ul.list-menu > li > a {
 .marketing > .second-header > span {
   font-size: 45px;
 }
+@media (max-width: 768px) {
+  /* Header Slider */
+  .header-slider {
+    height: 250px;
+    /*background-color: #0E0026;*/
+    /*background-color: #030921;*/
+    /*background-image: url(../img/main-spine.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: right right;*/
+  }
+  .marketing {
+    width: 70%;
+    margin-left: 15px;
+    margin-top: 40px;
+    color: #fff;
+    text-shadow: 1px 1px #454545;
+    text-transform: uppercase;
+  }
+  .marketing > .first-header {
+    font-size: 20px;
+  }
+  .marketing > .second-header {
+    margin-top: 40px;
+    font-size: 15px;
+  }
+  .marketing > .second-header > span {
+    font-size: 22px;
+  }
+}
 
 /* Video */
 .video {
