@@ -36,6 +36,9 @@ ul.list-menu > li > a {
   /*font-weight: bold;*/
   text-transform: uppercase;
 }
+ul.list-menu > li > a.shares-link {
+  color: #EF86A9;
+}
 
 /* Header Slider */
 .header-slider {

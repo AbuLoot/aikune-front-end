@@ -34,12 +34,12 @@
             <li>+7 727 9731440</li>
           </ul>
           <ul class="list-inline list-menu">
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">О методике</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Отзывы</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a class="scrollto" href="#about">О нас</a></li>
+            <li><a class="scrollto" href="#methodics">О методике</a></li>
+            <li><a class="scrollto" href="#services">Услуги</a></li>
+            <li><a class="scrollto" href="#reviews">Отзывы</a></li>
+            <li><a class="scrollto shares-link" href="#shares">Акции</a></li>
+            <li><a class="scrollto" href="#contacts">Контакты</a></li>
           </ul>
         </div>
       </div>
@@ -71,7 +71,7 @@
     </div>
 
     <!-- Info -->
-    <div class="container info-services">
+    <div class="container info-services" id="about">
       <div class="row">
         <div class="col-md-4">
           <img class="img-responsive img-rounded" src="img/1-aikune1.jpg">
@@ -110,7 +110,7 @@
     </div>
 
     <!-- You need it -->
-    <div class="you-need-it">
+    <div class="you-need-it" id="methodics">
       <div class="container">
         <div class="h3">ПОЧЕМУ ВАМ НУЖНО ЗАНИМАТЬСЯ В ЦЕНТРЕ "АЙКУНЕ"?</div>
         <div class="col-md-4">
@@ -273,7 +273,7 @@
     </div>
 
     <!-- Services -->
-    <div class="services">
+    <div class="services" id="services">
       <div class="h3">ДОПОЛНИТЕЛЬНЫЫЕ УСЛУГИ ЦЕНТРА "АЙКУНЕ"</div>
 
       <!-- Nav tabs -->
@@ -324,10 +324,9 @@
         </div>
       </div>
     </div>
-    <!-- <hr> -->
 
     <!-- Reviews -->
-    <div class="reviews">
+    <div class="reviews" id="reviews">
       <div class="container">
         <div class="h3">Отзывы и результаты Наших пациентов</div>
         <div class="col-md-offset-3 col-md-6 scroll-reviews"><br>
@@ -351,8 +350,18 @@
       </div>
     </div>
 
+    <!-- Shares -->
+    <div class="shares" id="shares">
+      <div class="container">
+        <div class="h3">Акции и скидки</div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+
     <!-- Contacts -->
-    <div class="contacts">
+    <div class="contacts" id="contacts">
       <div class="container">
         <div class="h3">Пишите нам и с Вами свяжутся наши специалисты</div>
 
@@ -388,5 +397,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('a.scrollto').click(function(){
+          var el = $(this).attr('href');
+          $('body').animate({scrollTop: $(el).offset().top}, 1000);
+          return false;
+        });
+      });
+    </script>
   </body>
 </html>
