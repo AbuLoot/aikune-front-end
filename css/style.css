@@ -347,7 +347,7 @@ ul.list-menu > li > a.shares-link {
 /* Reviews */
 .reviews {
   padding: 50px 0;
-  background-color: #ECEFEF;
+  /*background-color: #ECEFEF;*/
 }
 .reviews > div > .h3 {
   color: #363186;
@@ -356,10 +356,45 @@ ul.list-menu > li > a.shares-link {
   text-transform: uppercase;
 }
 .scroll-reviews {
-  /*background-color: #fff;*/
+  background-color: #fff;
   max-height: 320px;
   overflow-y: auto;
 }
+.comment {
+  padding: 20px;
+  margin: 10px 20px 0;
+  font-size: 17.5px;
+  background-color: #ECEFEF;
+}
+
+/* Shares */
+.shares {
+  padding: 50px 0;
+  text-align: center;
+  /*background-color: #ECEFEF;*/
+}
+.shares > div > .h3 {
+  color: #EF86A9;
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.shares-discounts-text {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.discounts {
+  color: #fff;
+  padding: 50px;
+  background-color: #EF86A9;
+  border-radius: 20px;
+}
+.title-course {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.price-course { font-size: 38px; }
+.price-course > span { font-size: 60px; }
 
 /* Contacts */
 .contacts {
