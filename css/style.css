@@ -200,19 +200,12 @@ ul.list-menu > li > a.shares-link {
   text-align: center;
   margin-bottom: 50px;
 }
-@media (max-width: 768px) {
-  .patent .col-xs-6 {
-    min-height: 270px;
-  }
-}
 
 /* Technique */
 .technique {
   padding-top: 50px;
-  /*height: 100;*/
-  /*background-color: #363186;*/
   background-color: #030921;
-  background-image: url(../img/spine1b.jpg);
+  background-image: url(../img/spine.jpg);
   background-repeat: no-repeat;
   background-position: 300px 30px;
 }
@@ -240,9 +233,13 @@ ul.list-menu > li > a.shares-link {
 }
 
 /* Symptoms */
-.symptoms {
-  margin-top: 129px;
+
+@media (min-width: 768px) {
+  .symptoms {
+    margin-top: 129px;
+  }
 }
+
 .symptoms-area {
   display: table;
   height: 400px;
@@ -274,7 +271,7 @@ ul.list-menu > li > a.shares-link {
   background-size: 100% auto !important;
   background-position: bottom center;
   background-repeat: no-repeat;
-  background-image: url(../img/ready2-back-pain5.jpg);
+  background-image: url(../img/ready-back-pain5.jpg);
 }
 .left-image1 {
   width: 100%;
